@@ -1,0 +1,87 @@
+.box-sfondo {
+    background-image: url(../assets/img/footer-bg.jpg);
+    background-size: cover;
+    height: 400px;
+    overflow: hidden;
+  }
+
+  .col-left{
+    float: left;
+    width: 35%;
+    padding: 20px 0px;
+
+    .col-primo,
+    .col-secondo,
+    .col-terzo{
+      float: left;
+      width: 33%;
+      padding: 10px;
+
+      h3{
+        color: $primary-color;
+        margin: 20px 0px;
+        text-transform: uppercase;
+      }
+      ul{
+        list-style: none;
+
+        li{
+          a{
+            color:$fifth-color;
+            @include decor;
+            font-size: 0.7rem;
+            &:hover{
+              text-decoration: underline;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .col-right{
+    width: 55%;
+    float: right;
+
+    img{
+      width: 80%;
+      margin-top: -103px;
+      margin-left: 100px;
+    }
+  }
+
+  .box-foot{
+    background-color: $fourth-color;
+
+    .box-icons{
+      @include menu;
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+
+      .btn a{
+        color: $primary-color;
+        padding: 10px 15px;
+        border: 2px solid $third-color;
+        text-transform: uppercase;
+        &:hover{
+          color: $third-color;
+        }
+      }
+    }
+
+    .icons{
+      display: flex;
+
+      h3{
+        padding-top: 20px;
+        margin-right: 10px;
+        color: $third-color;
+        text-transform: uppercase;
+      }
+
+      img{
+        margin: 10px;
+      }
+    }
+  }

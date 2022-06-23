@@ -1,0 +1,27 @@
+
+@mixin center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin lista {
+  @include center;
+  list-style: none;
+}
+
+@mixin menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin decor{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+@mixin btn{
+  background-color: $third-color;
+  padding: 10px 15px;
+  color: white;
+}

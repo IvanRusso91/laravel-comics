@@ -1,0 +1,42 @@
+.box-head{
+    @include  menu;
+    padding: 20px 0;
+    .logo{
+      width: 40%;
+      img{
+        width: 80px;
+      }
+    }
+
+    .right-head{
+      width: 60%;
+      nav{
+        margin-right: 10px;
+
+        ul{
+          @include lista;
+          list-style: none;
+          padding-top: 35px;
+
+          li{
+            margin-right: 18px;
+
+          }
+
+          a{
+            color:$fourth-color;
+            @include decor;
+            font-size: 0.9rem;
+            &.active,
+            &:hover{
+              color: $third-color;
+              border-bottom: 5px solid $third-color;
+              padding-bottom: 47px;
+            }
+
+          }
+
+        }
+      }
+    }
+  }

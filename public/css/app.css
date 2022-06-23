@@ -1,0 +1,240 @@
+.container {
+  width: 80%;
+  max-width: 1400px;
+  margin: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.box-head {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.box-head .logo {
+  width: 40%;
+}
+.box-head .logo img {
+  width: 80px;
+}
+.box-head .right-head {
+  width: 60%;
+}
+.box-head .right-head nav {
+  margin-right: 10px;
+}
+.box-head .right-head nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  list-style: none;
+  padding-top: 35px;
+}
+.box-head .right-head nav ul li {
+  margin-right: 18px;
+}
+.box-head .right-head nav ul a {
+  color: rgb(61, 61, 61);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+.box-head .right-head nav ul a.active, .box-head .right-head nav ul a:hover {
+  color: rgb(2, 130, 249);
+  border-bottom: 5px solid rgb(2, 130, 249);
+  padding-bottom: 47px;
+}
+
+.box-sfondo {
+  background-image: url(../assets/img/footer-bg.jpg);
+  background-size: cover;
+  height: 400px;
+  overflow: hidden;
+}
+
+.col-left {
+  float: left;
+  width: 35%;
+  padding: 20px 0px;
+}
+.col-left .col-primo,
+.col-left .col-secondo,
+.col-left .col-terzo {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.col-left .col-primo h3,
+.col-left .col-secondo h3,
+.col-left .col-terzo h3 {
+  color: rgb(255, 255, 255);
+  margin: 20px 0px;
+  text-transform: uppercase;
+}
+.col-left .col-primo ul,
+.col-left .col-secondo ul,
+.col-left .col-terzo ul {
+  list-style: none;
+}
+.col-left .col-primo ul li a,
+.col-left .col-secondo ul li a,
+.col-left .col-terzo ul li a {
+  color: rgb(121, 120, 120);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+.col-left .col-primo ul li a:hover,
+.col-left .col-secondo ul li a:hover,
+.col-left .col-terzo ul li a:hover {
+  text-decoration: underline;
+}
+
+.col-right {
+  width: 55%;
+  float: right;
+}
+.col-right img {
+  width: 80%;
+  margin-top: -103px;
+  margin-left: 100px;
+}
+
+.box-foot {
+  background-color: rgb(61, 61, 61);
+}
+.box-foot .box-icons {
+  display: flex;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.box-foot .box-icons .btn a {
+  color: rgb(255, 255, 255);
+  padding: 10px 15px;
+  border: 2px solid rgb(2, 130, 249);
+  text-transform: uppercase;
+}
+.box-foot .box-icons .btn a:hover {
+  color: rgb(2, 130, 249);
+}
+.box-foot .icons {
+  display: flex;
+}
+.box-foot .icons h3 {
+  padding-top: 20px;
+  margin-right: 10px;
+  color: rgb(2, 130, 249);
+  text-transform: uppercase;
+}
+.box-foot .icons img {
+  margin: 10px;
+}
+
+.jumbo {
+  background-image: url(../assets/img/jumbotron.jpg);
+  background-size: cover;
+  height: 400px;
+}
+.jumbo .title {
+  text-align: left;
+  padding-top: 378px;
+  text-transform: uppercase;
+}
+.jumbo .title h2 {
+  position: relative;
+  background-color: rgb(2, 130, 249);
+  padding: 10px 15px;
+  color: white;
+  width: 250px;
+}
+
+.box-cards {
+  background-color: rgb(28, 28, 28);
+  padding: 50px 0px;
+}
+.box-cards .box-c {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box-cards .box-c .card {
+  width: 205px;
+  margin: 14px;
+  margin-bottom: 10px;
+}
+.box-cards .box-c .card img:hover {
+  cursor: pointer;
+}
+.box-cards .box-c .card h3 {
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  font-size: 0.9rem;
+  width: 200px;
+}
+.box-cards .btn-box {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+}
+.box-cards .btn-box .btn {
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  display: flex;
+  background-color: rgb(2, 130, 249);
+  padding: 10px 25px;
+  color: rgb(255, 255, 255);
+}
+
+.box-choice {
+  background-color: rgb(2, 130, 249);
+  display: flex;
+  align-items: center;
+}
+.box-choice ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+.box-choice ul li {
+  padding: 50px;
+}
+.box-choice ul li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 0.8rem;
+}
+.box-choice ul li a img {
+  width: 45px;
+}
+.box-choice ul li a .image-b,
+.box-choice ul li a .image-c {
+  width: 55px;
+}
+.box-choice ul li a .image-d {
+  width: 35px;
+}
+.box-choice ul li a .image-e {
+  margin-top: 15px;
+  width: 60px;
+}
+.box-choice ul li a p {
+  float: right;
+  margin-left: 15px;
+  margin-top: 25px;
+}
