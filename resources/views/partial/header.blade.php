@@ -2,7 +2,7 @@
     <div class="container box-head">
 
       <div class="logo">
-        <img src={{ asset('img/dc-logo.png')}} alt="logo">
+        <a href="{{ route('home')}}"><img src={{ asset('img/dc-logo.png')}} alt="logo"></a>
       </div>
 
       <div class="right-head">
