@@ -9,12 +9,12 @@
 
     <div class="box-cards">
         <div class="container box-c">
+            @foreach ($comics as $comic)
             <div class="card">
-                @foreach ($comics as $comic)
-                    <img src="{{$comic->image}}" alt="{{$comic->type}}">
-                    <h3>{{$comic->title}}</h3>
-                @endforeach
+                <img src="{{$comic->image}}" alt="{{$comic->type}}">
+                <h3>{{$comic->title}}</h3>
             </div>
+            @endforeach
         </div>
 
         <div class="btn-box">
