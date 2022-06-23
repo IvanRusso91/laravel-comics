@@ -59,7 +59,7 @@ a {
 }
 
 .box-sfondo {
-  background-image: url(../assets/img/footer-bg.jpg);
+  background-image: url("/img/footer-bg.jpg");
   background-size: cover;
   height: 400px;
   overflow: hidden;
@@ -146,7 +146,7 @@ a {
 }
 
 .jumbo {
-  background-image: url(../assets/img/jumbotron.jpg);
+  background-image: url(/img/jumbotron.jpg);
   background-size: cover;
   height: 400px;
 }
