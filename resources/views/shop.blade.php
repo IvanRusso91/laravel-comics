@@ -1,4 +1,5 @@
 @extends('layout.main')
+@section('title', 'Shop')
 
 @section('content')
 <div class="jumbo">
