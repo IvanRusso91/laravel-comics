@@ -19,23 +19,22 @@
           padding-top: 35px;
 
           li{
-            margin-right: 18px;
+                margin-right: 18px;
 
-          }
-
-          a{
-            color:$fourth-color;
-            @include decor;
-            font-size: 0.9rem;
-            &.active,
-            &:hover{
-              color: $third-color;
-              border-bottom: 5px solid $third-color;
-              padding-bottom: 47px;
             }
 
-          }
+            a{
+                color:$fourth-color;
+                @include decor;
+                font-size: 0.9rem;
+                &.active,
+                &:hover{
+                    color: $third-color;
+                    border-bottom: 5px solid $third-color;
+                    padding-bottom: 47px;
+                }
 
+            }
         }
       }
     }
